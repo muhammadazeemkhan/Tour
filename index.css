@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+    font-family: monospace;
+
+}
+h1{
+    text-align: center;
+    color: white;
+
+}
+p{
+    color: white;
+    text-align: center;
+    text-align: justify;
+}
+img{
+    width: 1050px;
+    margin-left: 100px;
+}
+ul {
+    font-family: monospace;
+    display: flex;
+    gap: 1px;
+    margin-left:300px;
+    }
+    ul li {
+        list-style: none;
+
+    }
+    ul li a {
+        font-size: 26px ;
+        font-weight: 700;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: white;
+        padding: 15px;
+        transition: 0.5s ease;
+    
+    }
+    ul:hover li a {
+        color: #30edf4;
+    }
+    ul:hover li a:not(:hover){
+        color: white;
+        opacity: 0.3;
+        filter: blur(1px);
+    }
+    button{
+        margin-left: 550px;
+    }
